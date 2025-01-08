@@ -1,5 +1,10 @@
 Code for interfacing with RM-Tool's QU-Fitting and modelling depolarization spectra.
 
+Credit to:
+Purcell, C. R., Van Eck, C. L., West, J., Sun, X. H., & Gaensler, B. M. (2020). {RM}-{Tools}: {Rotation} measure ({RM}) synthesis and {Stokes} {QU}-fitting. Astrophysics Source Code Library, ascl:2005.003. 1  https://ui.adsabs.harvard.edu/abs/2020ascl.soft05003P
+
+This is an adaptation for use in past research project.
+
 Models are in the ‘[models_ns](https://github.com/CIRADA-Tools/RM-Tools/tree/master/RMtools_1D/models_ns)’ folder in RM-Tools. It is recommended to import this folder into the directory one is running their notebook in so that you can adjust it as needed. For example, you may want to constrain the range of allowed Rotation Measures for a faster and more reliable fitting. 
 
 QU Fitting outputs three parameters. They are in the output file named `file_path = fn + '_m' + str(model_used) + '_' + str(sampler_used) + '.json'` 
